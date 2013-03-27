@@ -1,0 +1,36 @@
+
+UNSYNC_CHARTYPES                                                                
+----------------                                                                
+               0                                                                
+
+
+UNSYNC_NUMBERTYPES                                                              
+------------------                                                              
+                 0                                                              
+
+
+UNSYNC_DATATYPES                                                                
+----------------                                                                
+               0                                                                
+
+  FROM ((SELECT s_raw, s_pk_formapping, s_blob_name
+                *
+ERROR at line 2:
+ORA-00904: "S_RAW": invalid identifier 
+
+
+
+UNSYNC_NCLOB                                                                    
+------------                                                                    
+           0                                                                    
+
+
+UNSYNC_CLOB                                                                     
+-----------                                                                     
+          0                                                                     
+
+
+UNSYNC_BLOB                                                                     
+-----------                                                                     
+          0                                                                     
+

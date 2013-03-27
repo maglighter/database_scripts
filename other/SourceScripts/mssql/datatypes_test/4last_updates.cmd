@@ -1,0 +1,1 @@
+sqlcmd -U sa -P sa -i "C:\work\test_mssql_to_oracle\last_updates_mssql.sql"

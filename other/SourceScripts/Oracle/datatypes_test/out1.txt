@@ -1,0 +1,12 @@
+
+F:\setups\SourceScripts\Oracle\datatypes_test>sqlplus ora_test_user/ora_test_user@myorcl @changes.sql 
+
+SQL*Plus: Release 11.2.0.2.0 Production on Wed Mar 21 13:05:27 2012
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+ERROR:
+ORA-01017: неверно имя пользователя/пароль; вход в систему запрещается
+
+
+Enter user-name: 

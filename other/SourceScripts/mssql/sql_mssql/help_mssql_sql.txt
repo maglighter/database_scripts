@@ -1,0 +1,10 @@
+// описание структуры таблицы
+exec sp_columns <название таблицы>
+
+//более пдробная информация о таблице
+exec sp_help <название таблицы>
+
+
+ALTER DATABASE db_sec_targ SET ALLOW_SNAPSHOT_ISOLATION ON;
+
+Alter table alter column

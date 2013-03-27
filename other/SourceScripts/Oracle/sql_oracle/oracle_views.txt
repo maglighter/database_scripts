@@ -1,0 +1,35 @@
+v$archive_dest
+--Shows all archived redo log destinations. Use this view to find out to which place archived redo logs are copied: select dest_id,destination from v$archive_dest
+--These values correspond to the init parameter log_archive_dest_n.
+v$archive_dest_status
+--This view allows to find status and errors for each of the defined
+v$archived_log
+--Displays successfully archived redo logs.
+--shows received logs on a primary standby database.
+v$archive_gap
+--Lists sequence numbers of the archived los that are known to be missing for each thread on a (physical?) standby database (highest gap only).
+v$archive_processes
+--This view provides information on the archive processes. It can be used to find out if an ARCH process is active or not.
+v$controlfile
+--Displays the location and status of each controlfile in the database.
+v$controlfile_record_section
+--See sections in a controlfile. 
+v$database
+This view lets you access database information. For example, you can check (using log_mode) whether or not the database is in archivelog mode:
+
+checkpoint_change# records the SCN of the last checkpoint.
+switchover_status: can be used to determine if it is possible to perform a switchover operation Only available for physical standby databases. Can be:
+
+    NOT ALLOWED,
+    SESSIONS ACTIVE,
+    SWITCHOVER PENDING,
+    SWITCHOVER LATENT,
+    TO PRIMARY,
+    TO STANDBY or
+    RECOVERY NEEDED. 
+
+See protection modes in data guard for the columns protection_mode and protection_level.
+database_role determines if a database is a primary or a logical standby database or a physical standby database.
+force_logging tells if a database is in force logging mode or not. 
+v$logfile
+This view can be queried to find the filenames, group numbers and states of redo log files. For example, to find all files of group 2, use select member from v$logfile where group# = 2 

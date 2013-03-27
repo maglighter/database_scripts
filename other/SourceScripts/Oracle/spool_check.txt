@@ -1,0 +1,35 @@
+
+UNSYNC_CHARTYPES
+----------------
+               0
+1 row selected.
+
+UNSYNC_NUMBERTYPES
+------------------
+                 0
+1 row selected.
+
+UNSYNC_DATATYPES
+----------------
+               0
+1 row selected.
+
+UNSYNC_RAW
+----------
+         0
+1 row selected.
+
+UNSYNC_NCLOB
+------------
+           0
+1 row selected.
+
+UNSYNC_CLOB
+-----------
+          0
+1 row selected.
+
+UNSYNC_BLOB
+-----------
+          0
+1 row selected.

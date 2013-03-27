@@ -1,0 +1,1 @@
+.\changes.cmd > out1.txt &

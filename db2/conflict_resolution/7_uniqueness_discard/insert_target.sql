@@ -1,0 +1,17 @@
+INSERT INTO targ.d2d_conflict_7_01 (s_integer, s_smallint) VALUES (2, 60);
+INSERT INTO targ.d2d_conflict_7_02 (s_integer, s_bigint) VALUES (2, 15);
+INSERT INTO targ.d2d_conflict_7_03 (s_integer, s_decimal) VALUES (2, 0.00017038);
+INSERT INTO targ.d2d_conflict_7_04 (s_integer, s_real) VALUES (2, 306.011);
+INSERT INTO targ.d2d_conflict_7_05 (s_integer, s_double) VALUES (2, 0.011210377251128842);
+INSERT INTO targ.d2d_conflict_7_06 (s_integer, s_char) VALUES (2, 'char50');
+INSERT INTO targ.d2d_conflict_7_07 (s_integer, s_varchar) VALUES (2, 'varchar50');
+INSERT INTO targ.d2d_conflict_7_08 (s_integer, s_graphic) VALUES (2, 'graphic50');
+INSERT INTO targ.d2d_conflict_7_09 (s_integer, s_vargraphic) VALUES (2, 'vargraphic50');
+INSERT INTO targ.d2d_conflict_7_10 (s_integer, s_date) VALUES (2, '2012-02-08');
+INSERT INTO targ.d2d_conflict_7_11 (s_integer, s_time) VALUES (2, '14:19:18');
+INSERT INTO targ.d2d_conflict_7_12 (s_integer, s_timestamp) VALUES (2, '2011-02-16 15:12:03.378');
+INSERT INTO targ.d2d_conflict_7_13 (s_integer, s_long_vargraphic) VALUES (2, 'long_vargaphic50');
+INSERT INTO targ.d2d_conflict_7_14 (s_integer, s_long_varchar) VALUES (2, 'varchar50');
+INSERT INTO targ.d2d_conflict_7_15 (s_integer, s_clob) VALUES (2, 'clob50 here');
+INSERT INTO targ.d2d_conflict_7_16 (s_integer, s_dbclob) VALUES (2, 'dbclob50 here');
+INSERT INTO targ.d2d_conflict_7_17 (s_integer, s_blob) VALUES (2, blob('blob50 here'));

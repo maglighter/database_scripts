@@ -1,0 +1,61 @@
+./server_manager  RUN_AS_SERVICE port=18052 udp_port=18053 DBSYNC_HOME=`pwd`
+
+export  LD_LIBRARY_PATH=/usr/local/nz/lib64:$LD_LIBRARY_PATH
+export DBSYNC_HOME=/home/oracle/kuyanova/DataReplication.hpux.ia64_950
+export DD_INSTALLDIR=$DBSYNC_HOME/dd
+export ODBCINST=$DBSYNC_HOME/dd/odbcinst.ini
+export LD_LIBRARY_PATH=$DBSYNC_HOME:$DBSYNC_HOME/support:$DBSYNC_HOME/dd/lib:$LD_LIBRARY_PATH
+export PATH=$LD_LIBRARY_PATH:$PATH
+cd $DBSYNC_HOME
+./server_manager  RUN_AS_SERVICE port=18052 udp_port=18053 DBSYNC_HOME=`pwd`
+
+export DBSYNC_HOME=/home/oracle/IDR_95_kuyanova/DataReplication.hpux.ia64_sm2
+
+/home/oracle/kuyanova/DataReplication.hpux.ia64_950
+
+export DBSYNC_HOME=/home/oracle/kuyanova/DataReplication.linux.x86_64
+export DD_INSTALLDIR=$DBSYNC_HOME/dd
+export ODBCINST=$DBSYNC_HOME/dd/odbcinst.ini
+export LD_LIBRARY_PATH=$DBSYNC_HOME/support:$DBSYNC_HOME/dd/lib:$LD_LIBRARY_PATH
+export PATH=$LD_LIBRARY_PATH:$PATH
+
+export DBSYNC_HOME=/home/oracle/kuyanova/DataReplication.linux.x86_64_95
+
+export DBSYNC_HOME=/home/oracle/kuyanova/DataReplication.linux.x86_64_HF3
+
+export DBSYNC_HOME=/home/DBSync.linux.x86_64_2538
+export ODBCINST=$DBSYNC_HOME/odbc_driver/odbcinst.ini
+export LD_LIBRARY_PATH=$DBSYNC_HOME/support:$DBSYNC_HOME/odbc_driver:$LD_LIBRARY_PATH
+export PATH=$LD_LIBRARY_PATH:$PATH
+
+export DBSYNC_HOME=/home/oracle/kuyanova/DataReplication.hpux.ia64_950
+export DD_INSTALLDIR=$DBSYNC_HOME/dd
+export ODBCINST=$DBSYNC_HOME/dd/odbcinst.ini
+export LD_LIBRARY_PATH=$DBSYNC_HOME/support:$DBSYNC_HOME/lib:$DBSYNC_HOME/dd/lib:$ORACLE_HOME/lib:$LD_LIBRARY_PATH
+export PATH=$LD_LIBRARY_PATH:$PATH
+cd $DBSYNC_HOME
+./server_manager  RUN_AS_SERVICE port=18050 udp_port=18051 DBSYNC_HOME=`pwd`
+./idr_console.sh
+
+10.51.40.47 Solaris
+/export/home/oracle/kuyanova/DataReplication.sun.sparc_911_HF3
+
+/export/home/oracle/kuyanova/DataReplication.sun.sparc_950
+
+chmod 755 dbsync_*
+chmod 755 support/*so*
+chmod 755 server_manager
+
+10.51.40.24 AIX
+
+set DBSYNC_HOME=/home/oracle/kuyanova/DataReplication.aix_950
+set DD_INSTALLDIR=$DBSYNC_HOME/dd
+set ODBCINST=$DBSYNC_HOME/dd/odbcinst.ini
+set LIBPATH=$DBSYNC_HOME/support:$DBSYNC_HOME/dd/lib:$ORACLE_HOME/lib:$LIBPATH
+set PATH=$LIBPATH:$PATH
+cd $DBSYNC_HOME
+./server_manager  RUN_AS_SERVICE port=18050 udp_port=18051 DBSYNC_HOME=`pwd`
+LIBPATH
+
+Äëÿ Netezza â odbcinst.ini
+Driver=/usr/local/nz/lib64/libnzodbc.sl

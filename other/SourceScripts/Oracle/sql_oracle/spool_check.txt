@@ -1,0 +1,50 @@
+
+SBS_BASIC_TYPES
+---------------
+              0
+1 row selected.
+
+SBS_BINARY_TYPES
+----------------
+               0
+1 row selected.
+
+SBS_CHARACTER_TYPES
+-------------------
+                  0
+1 row selected.
+
+SBS_CHARACTER_TYPES_LNG
+-----------------------
+                      0
+1 row selected.
+
+SBS_DATETIME_TYPES
+------------------
+                 0
+1 row selected.
+
+SBS_DECIMAL_TYPES
+-----------------
+                0
+1 row selected.
+
+SBS_MONEY_TYPES
+---------------
+              0
+1 row selected.
+
+UNSYNC_S_IMAGE
+--------------
+             0
+1 row selected.
+
+UNSYNC_S_TEXT
+-------------
+            0
+1 row selected.
+
+UNSYNC_S_UNITEXT
+----------------
+               1
+1 row selected.

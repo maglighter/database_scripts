@@ -1,0 +1,19 @@
+SQL> create table w_char (id number(10), name char(100));
+
+Table created.
+
+SQL> insert into w_char values (1, 'terry');
+
+1 row created.
+
+SQL> commit;
+
+Commit complete.
+
+SQL> update w_char set name='tara' where id=1;
+
+1 row updated.
+
+SQL> commit;
+
+Commit complete.

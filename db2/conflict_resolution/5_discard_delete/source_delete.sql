@@ -1,0 +1,17 @@
+DELETE FROM src.d2d_conflict_5_01 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_02 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_03 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_04 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_05 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_06 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_07 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_08 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_09 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_10 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_11 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_12 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_13 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_14 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_15 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_16 WHERE s_integer=2;
+DELETE FROM src.d2d_conflict_5_17 WHERE s_integer=2;

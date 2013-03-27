@@ -1,0 +1,9 @@
+drop table DDL_CREATE_A cascade constraints;                  
+drop table DDL_CREATE_C cascade constraints;                  
+drop table DDL_CREATE_B cascade constraints;                  
+drop table DDL_CREATE_D cascade constraints;                  
+drop table DDL_NEW_NAME cascade constraints;                  
+drop table DDL_INDEX_ADD cascade constraints;                 
+drop table DDL_COL_RENAME cascade constraints;                
+drop table DDL_COL_ALTER cascade constraints;                 
+drop table DDL_COL_ADD_DROP cascade constraints;              
