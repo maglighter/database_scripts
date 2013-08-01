@@ -1,9 +1,9 @@
-	-- boolean, bfile,
---set echo on
---set serveroutput on
---spool spool_create_schema.txt
--- create source
---CREATE SEQUENCE  DATAREP_USER.ORA_PK_ID
+--  boolean, bfile,
+--  set echo on
+--  set serveroutput on
+--  spool spool_create_schema.txt
+--  create source
+--  CREATE SEQUENCE  DATAREP_USER.ORA_PK_ID
 --  START WITH 1
 --  MAXVALUE 9999999999999999999999999999
 --  MINVALUE 0
